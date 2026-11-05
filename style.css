@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px);
+}
+
+.arena {
+  display: block;
+  position: relative;
+
+  width: 610px;
+  height: 410px;
+
+  border: 1px solid gray;
+}
+
+.character {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: darkslategray;
+}
